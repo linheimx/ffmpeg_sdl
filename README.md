@@ -29,7 +29,15 @@ run
 ./tutor3 video.mp4
 ```
 
-
+## tutor4
+compile
+```
+clang -g -o tutor4 tutor4.c `pkg-config --cflags --libs libavformat libavcodec libswscale sdl`
+```
+run
+```
+./tutor4 video.mp4
+```
 
 
 
