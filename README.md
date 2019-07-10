@@ -1,4 +1,6 @@
 # ffmpeg_sdl
+>可简单配置CMakeLists.txt，来对项目快速的编译。以下提供单个文件的编译命令
+
 ## tutor1
 compile 
 ```
