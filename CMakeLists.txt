@@ -10,5 +10,5 @@ message(lib dir:${NEED_LIBRARY_DIRS})
 link_directories(${NEED_LIBRARY_DIRS})
 message(lib:${NEED_LIBRARIES})
 
-add_executable(ffmpeg_sdl tutor4.c)
+add_executable(ffmpeg_sdl tutor5.c)
 target_link_libraries(ffmpeg_sdl ${NEED_LIBRARIES})
