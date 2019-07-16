@@ -41,5 +41,14 @@ run
 ./tutor4 video.mp4
 ```
 
+## tutor5
+compile
+```
+clang -g -o tutor5 tutor5.c `pkg-config --cflags --libs libavformat libavcodec libswscale sdl`
+```
+run
+```
+./tutor5 video.mp4
+```
 
 
