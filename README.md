@@ -1,6 +1,10 @@
 # ffmpeg_sdl
 >可简单配置CMakeLists.txt，来对项目快速的编译。以下提供单个文件的编译命令
 
+# fsplayer
+
+
+# tutor
 ## tutor1
 compile 
 ```
@@ -51,4 +55,23 @@ run
 ./tutor5 video.mp4
 ```
 
+## tutor6
+compile
+```
+clang -g -o tutor6 tutor6.c `pkg-config --cflags --libs libavformat libavcodec libswscale sdl`
+```
+run
+```
+./tutor6 video.mp4
+```
+
+## tutor7
+compile
+```
+clang -g -o tutor7 tutor7.c `pkg-config --cflags --libs libavformat libavcodec libswscale sdl`
+```
+run
+```
+./tutor7 video.mp4
+```
 

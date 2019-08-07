@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "swscale.h": "c",
+        "sdl.h": "c"
+    }
+}

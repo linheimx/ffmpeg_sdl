@@ -927,6 +927,7 @@ int main(int argc, char *argv[]) {
         return -1;
     }
 
+    // pkt.data = "flush"
     av_init_packet(&flush_pkt);
     flush_pkt.data = "FLUSH";
 
