@@ -2,9 +2,12 @@
 >可简单配置CMakeLists.txt，来对项目快速的编译。以下提供单个文件的编译命令
 
 # fsplayer
+1. 音画同步
+2. seek
 
 
-# tutor
+
+# tutor命令行编译
 ## tutor1
 compile 
 ```
