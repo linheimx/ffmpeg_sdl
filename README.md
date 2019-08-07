@@ -7,7 +7,7 @@
 
 
 
-# tutor命令行编译
+# tutor编译
 ## tutor1
 compile 
 ```
